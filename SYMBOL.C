@@ -1,12 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 char c1=3,c2=5;
-clrscr();
 while(c1!=0 && c2!=0)
 {
 printf("%c %c" ,c1,c2);
 }
-getch();
 }
