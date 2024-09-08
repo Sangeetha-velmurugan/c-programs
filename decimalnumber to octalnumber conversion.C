@@ -6,7 +6,7 @@ printf("enter the decimal number: \n");
 scanf("%d",&decimalnumber);
 while(decimalnumber!=0)
 {
-reminder=decimalnumber%8;
+remainder=decimalnumber%8;
 decimalnumber=decimalnumber/8;
 sum=sum+remainder*placevalue;
 placevalue=placevalue*10;
