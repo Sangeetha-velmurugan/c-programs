@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 int days;
-clrscr();
 printf("enter the days:");
 scanf("%d",&days);
 switch(days)
@@ -32,5 +30,4 @@ break;
 default:
 printf("weekends");
 }
-getch();
 }
