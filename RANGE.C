@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 int num1,num2,remainder,divided,divisor;
@@ -23,6 +22,5 @@ divided=divisor;
 divisor=remainder;
 }
 printf("gcd of the number %d and %d is ",num1,num2,divided);
-getch();
 }
 
