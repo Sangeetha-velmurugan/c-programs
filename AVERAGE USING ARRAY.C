@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 int num[10],n,i,max=0,min=9;
-clrscr();
 printf("enter how many numbers:");
 scanf("%d",n);
 for(i=1;i<=n;i++)
@@ -20,5 +18,4 @@ min=num[i];
 }
 printf("minimum number:",min);
 printf("maximum number:",max);
-getch();
 }
