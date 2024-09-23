@@ -3,11 +3,11 @@ void main()
 {
 int range,n,min=9,max=0,diff,i;
 
-printf("Enter a how many numbers you want : ");
+printf("Enter a list of numbers : ");
 scanf("%d",&range);
 for(i=1;i<=range;i++)
 {
-printf("Enter number %d : ",i);
+printf("Enter number : ",i);
 scanf("%d",&n);
 if(n>max)
 {
