@@ -19,5 +19,4 @@ min=n;
 }
 diff=max-min;
 printf("Difference between smallest and largest number : %d ",diff);
-
 }
