@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int range,n,min=32767,max=0,diff,i;
+int range,n,min=9,max=0,diff,i;
 
 printf("Enter a how many numbers you want : ");
 scanf("%d",&range);
