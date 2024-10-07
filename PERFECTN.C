@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+int factor(int n)
+{
+int i,sum=0,fac;
+printf("factors");
+for (i=1;i<n;i++)
+{
+fac=n%i;
+if(fac==0)
+{
+printf(" %d",i);
+sum+=i;
+}
+}
+if(sum==n)
+{
+printf("\n %d is perfect number",n);
+}
+else
+{
+printf("\n %d is not a perfect number",n);
+}
+return(sum);
+}
+void main()
+{
+int x;
+clrscr();
+printf("enter x:");
+scanf("%d",&x);
+factor(x);
+getch();
+}
