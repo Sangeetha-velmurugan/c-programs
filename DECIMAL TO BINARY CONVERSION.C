@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int binary(int num)
 {
 int rem,i=1,sum=0;
@@ -15,9 +14,7 @@ return(sum);
 void main()
 {
 int x;
-clrscr();
 printf("enter x:");
 scanf("%d",&x);
 printf("%d",binary(x));
-getch();
 }
