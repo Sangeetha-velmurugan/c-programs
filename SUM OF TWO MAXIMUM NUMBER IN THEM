@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int add(int a,int b,int c)
 {
 int sum;
@@ -20,7 +19,6 @@ return(sum);
 void main()
 {
 int x,y,z;
-clrscr();
 printf("enter x:\n");
 scanf("%d",&x);
 printf("enter y:\n");
@@ -28,5 +26,4 @@ scanf("%d",&y);
 printf("enter z:\n");
 scanf("%d",&z);
 printf("sum is %d",add(x,y,z));
-getch();
 }
