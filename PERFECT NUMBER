@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int factor(int n)
 {
 int i,sum=0,fac;
@@ -26,9 +25,7 @@ return(sum);
 void main()
 {
 int x;
-clrscr();
 printf("enter x:");
 scanf("%d",&x);
 factor(x);
-getch();
 }
