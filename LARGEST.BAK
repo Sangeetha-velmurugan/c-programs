@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+int add(int a,int b,int c)
+{
+int sum;
+if(a<=b && a<=c)
+{
+sum=b+c;
+}
+if(b<=a && b<=c)
+{
+sum=a+c;
+}
+if(c<=a && c<=b)
+{
+sum=a+b;
+}
+return(sum);
+}
+void main()
+{
+int x,y,z;
+clrscr();
+printf("enter x:\n");
+scanf("%d",&x);
+printf("enter y:\n");
+scanf("%d",&y);
+printf("enter z:\n");
+scanf("%d",&z);
+printf("sum is %d",add(x,y,z));
+getch();
+}
