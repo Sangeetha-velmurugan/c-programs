@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 int vote[10],c,candid,i,v,maxvote,pos=-1;
-clrscr();
 printf("enter the number of candidate:");
 scanf("%d",&c);
 printf("enter the number of voters:");
@@ -29,5 +27,4 @@ pos=i;
 }
 printf("\n candidate id %d",pos);
 printf("\n number of vote %d",maxvote);
-getch();
 }
