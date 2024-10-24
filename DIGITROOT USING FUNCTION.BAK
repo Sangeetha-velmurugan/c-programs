@@ -16,19 +16,11 @@ void main()
 int num,j;
 printf("enter the number :");
 scanf("%d",&num);
-if(num>9)
+while(num>9)
 {
-digitroot(num);
-}
 j=digitroot(num);
-if(j>9)
-{
-digitroot(j);
-printf("digitroot is %d",digitroot(j));
+num=j;
 }
-else
-{
 printf("digitroot is %d",digitroot(num));
-}
 getch();
 }
